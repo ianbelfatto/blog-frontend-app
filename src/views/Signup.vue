@@ -23,6 +23,7 @@
         <label>Password confirmation:</label>
         <input type="password" class="form-control" v-model="newUserParams.password_confirmation" />
       </div>
+      <br />
       <input type="submit" class="btn btn-primary" value="Submit" />
     </form>
   </div>

@@ -19,6 +19,7 @@
         <label>Image URl:</label>
         <input type="text" class="form-control" v-model="newPostParams.image" />
       </div>
+      <br />
       <input type="submit" class="btn btn-primary" value="Submit" />
     </form>
     newPostParams: {{ newPostParams }}
